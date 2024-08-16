@@ -6,7 +6,6 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-# Your registration and login routes go here...
 
 if __name__ == '__main__':
     app.run(debug=True)
